@@ -115,8 +115,8 @@ module.exports = function (grunt) {
         contents = file.src.map(readFile).join('\n');
       }
 
-      grunt.verbose.subhead('Request');
-      grunt.verbose.writeln(JSON.stringify(options, null, 2));
+//       grunt.verbose.subhead('Request');
+//       grunt.verbose.writeln(JSON.stringify(options, null, 2));
 
       files.push({
         src: contents,
